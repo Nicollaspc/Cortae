@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background: #1E1E2F;
+}
+
+
+a{
+    text-decoration: none;
+    color: #27AE60;
+}
+
+
+#login{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+h1{
+    color: #27AE60;
+}
+
+
+.nome{
+    border: none;
+    border-radius: 15px;
+    background-color: #D4AF37;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    outline: none;
+    font-size: 15px;
+    color: #1E1E2F;
+}
+
+
+.email input{
+    border: none;
+    border-radius: 15px;
+    background-color: #D4AF37;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    outline: none;
+    font-size: 15px;
+    color: #1E1E2F;
+}
+
+
+.senha input{
+    border: none;
+    border-radius: 15px;
+    background-color: #D4AF37;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    margin-top: 10px;
+    outline: none;
+    font-size: 15px;
+    color: #1E1E2F ;
+}
+
+
+.confirmar-senha{
+    border: none;
+    border-radius: 15px;
+    background-color: #D4AF37;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    margin-top: 10px;
+    outline: none;
+    font-size: 15px;
+    color: #1E1E2F ;
+}
+
+
+p{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+
+
+.button input{
+    background: #27AE60;
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+input::placeholder{
+    color:#1E1E2F ;
+}
+
+
+.caixa{
+    margin-top: 150px;
+}
+
+
+
